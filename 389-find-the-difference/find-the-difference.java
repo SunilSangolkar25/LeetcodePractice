@@ -9,7 +9,7 @@ class Solution {
         {
             result=result^t.charAt(i);
         }
-        return  (char) result;
+        return (char) result;
         
     }
 }
