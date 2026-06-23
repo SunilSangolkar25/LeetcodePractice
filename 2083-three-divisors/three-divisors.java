@@ -1,0 +1,28 @@
+class Solution {
+    public boolean isThree(int n) {
+        int i=1;
+        int count=0;
+        boolean flag=false;
+         while (i<=n)
+         {
+            if(n%i==0)
+            {
+                count ++;
+
+            }
+           
+            i++;
+         }
+          if(count ==3)
+            {
+                flag=true;
+              
+            }
+         if(flag)
+         {
+            return true;
+         }
+         return false;
+        
+    }
+}
