@@ -1,13 +1,13 @@
 class Solution {
     public int arraySign(int[] nums) {
         int count=0;
-        for (int i=0;i<nums.length;i++)
+        for (int i:nums)
         {
-            if (nums[i]==0)
+            if (i==0)
             {
                 return 0;
             }
-            if(nums[i]<0)
+            if(i<0)
             {
                 count++;
 
